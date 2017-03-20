@@ -6,33 +6,47 @@
 .navbar-element{
   /* eredita il colore dell'elemento padre */
   background-color: inherit;
+  /* tutti gli elementi sono sulla stessa riga */
   display: inline-block;
+  /* il font è lucida console, se non c'è usa un monospace a caso */
   font-family: "lucida console", monospace;
+  /* il font è i grassetto */
   font-weight: bold;
+  /* grandezza 30px */
   font-size: 30px;
-  text-decoration-color: white;
+  /* colore bianco */
+  color: white;
+  /* spazio dal bordo di 20px */
   padding: 20px;
+  /* bordo a destra in linea continua di 2px di colore bianco */
   border-right-style: solid;
   border-width: 2px;
   border-color: white;
 }
 .navbar-element.active{
+  /* il nome della pagina attiva ha sfondo rosso */
   background-color: red;
 }
 .link:link, .link:visited{
+  /* i link non sono sottolineati e sono bianchi */
   text-decoration: none;
   color: white;
 }
 .link:hover{
+  /* quando ci si passa col mouse diventano rossi */
   text-decoration: none;
   color: #f00
 }
 body{
+  /* usa lo sfondo del drago e lo adatta alla grandezza della pagina */
   background-image: url("images/background-dragho.png");
   background-size: 100%;
   color: white;
 }
 .title{
+  /* il titolo occupa tutta la pagina in larghezza, è centrato, è tutto
+  maiuscolo scritto in small-caps, font arial black o sans-serif generico,
+  grandezza 60px */
   width: 100%;
   text-align: center;
   text-transform: capitalize;
@@ -41,6 +55,8 @@ body{
   font-size: 60px;
 }
 .text{
+  /* il testo ha un margine del 41% a sinistra per farci stare l'immagine,
+  ha un font lucida consolo e monospace generico, è in corsivo, 25px giustificato */
   margin-left: 41%;
   font-family: "lucida console", monospace;
   font-style: italic;
@@ -48,11 +64,15 @@ body{
   text-align: justify;
 }
 .image{
+  /*occupa 40% dell'elemento dove è messo, di cui l'1% è margine,
+  è allineato a sinistra */
   width: 39%;
   margin-left: 1%;
   float: left;
 }
 .article-preview{
+  /*la preview dell'articolo ha un margine superiore del 10%, ha un bordo fino
+  bianco con gli angoli arrotondati e è centrato a 20% da sinistra e destra */
   margin-top: 10%;
   border-color: white;
   border-style: solid;
@@ -61,9 +81,9 @@ body{
   margin-left: 20%;
   margin-right: 20%;
   padding: 1%;
-  margin-bottom: 10%;
 }
 .go-to-article-link:link, .go-to-article-link:visited{
+  /* il link per leggere l'articolo completo è azzurro senza sottolineatura */
   text-decoration: none;
   color: cyan;
 }
