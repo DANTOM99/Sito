@@ -46,10 +46,8 @@
 body{
   /* usa lo sfondo del drago e lo adatta alla grandezza della pagina */
   background-image: url("images/background-dragho.png");
-  background-size: auto 100%;
+  background-size: 100%;
   color: black;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .title{
   /* il titolo occupa tutta la pagina in larghezza, è centrato, è tutto
