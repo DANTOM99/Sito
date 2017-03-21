@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
+  <meta charset="utf-8">
   <title>
     Sito - News
   </title>
@@ -13,16 +14,30 @@
          Home
       </a>
     </span>
-    <span class="navbar-element">
-      <a href="recensioni.html" class="fa fa-star link">
-         Recensioni
-      </a>
-    </span>
-    <span class="navbar-element active">
-      <a class="fa fa-newspaper-o">
-         News
-      </a>
-    </span>
+    <div class="dropdown">
+      <span class="navbar-element">
+        <a href="recensioni.html" class="fa fa-star link">
+          Recensioni
+        </a>
+      </span>
+        <div class="dropdown-content" style="min-width:240px;">
+           <a href="#">Recensione 1</a>
+           <a href="#">Recensione 2</a>
+           <a href="#">Recensione 3</a>
+        </div>
+    </div>
+    <div class="dropdown">
+      <span class="navbar-element active">
+        <a href="news.html" class="fa fa-newspaper-o link active">
+           News
+        </a>
+      </span>
+        <div class="dropdown-content">
+           <a href="#">News 1</a>
+           <a href="#">News 2</a>
+           <a href="#">News 3</a>
+        </div>
+    </div>
   </div>
 </body>
 </html>
