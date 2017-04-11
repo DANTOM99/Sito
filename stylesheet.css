@@ -47,6 +47,7 @@ body{
   /* usa lo sfondo del drago e lo adatta alla grandezza della pagina */
   background-image: url("images/background-dragho.png");
   background-size: 100%;
+  background-attachment: fixed;
   color: black;
 }
 .title{
