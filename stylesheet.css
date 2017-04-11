@@ -1,5 +1,5 @@
 .navbar{
-  /* sfondo azzurro */
+  /* sfondo grigissimo */
   background-color: #111;
   width: 100%;
 }
@@ -45,10 +45,11 @@
 }
 body{
   /* usa lo sfondo del drago e lo adatta alla grandezza della pagina */
-  background-image: url("images/background-dragho.png");
+  background-image: url("images/bg.png");
   background-size: 100%;
   background-attachment: fixed;
   color: black;
+  padding-bottom: 5%;
 }
 .title{
   /* il titolo occupa tutta la pagina in larghezza, è centrato, è tutto
@@ -77,8 +78,8 @@ body{
   margin-left: 1%;
   float: left;
 }
-.article-preview{
-  /*la preview dell'articolo ha un margine superiore del 10%, ha un bordo fino
+.preview{
+  /*la preview dell'articolo ha un margine superiore del 5%, ha un bordo fino
   bianco con gli angoli arrotondati e è centrato a 20% da sinistra e destra */
   margin-top: 5%;
   border-color: white;
@@ -89,6 +90,28 @@ body{
   margin-right: 20%;
   padding: 1%;
   background-color: rgba(255, 255, 255, 0.7);
+}
+.article-content{
+  margin-top: 5%;
+  border-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.article-text{
+  font-family: "lucida console", monospace;
+  font-style: italic;
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 50px;
+}
+.article-image{
+  width: 100%;
+  margin-top: 20px;
 }
 .go-to-article-link:link, .go-to-article-link:visited{
   /* il link per leggere l'articolo completo è azzurro senza sottolineatura */
