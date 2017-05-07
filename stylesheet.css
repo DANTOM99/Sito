@@ -23,6 +23,7 @@
   border-width: 2px;
   border-color: white;
 }
+
 .navbar-element.active{
   /* il nome della pagina attiva ha sfondo rosso */
   background-color: red;
